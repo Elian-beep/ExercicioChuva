@@ -1,0 +1,165 @@
+.contentHeader {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+
+    background: #FDF1EB;
+    width: 100%;
+    height: 68px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.subtitleTop {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #725C5C;
+
+
+}
+
+.subtitleMid {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #725C5C;
+}
+
+.subtitleBottom {
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top: 48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #725C5C;
+
+}
+
+.areaTranslate {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 789px;
+    top: 17px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.areaTranslate button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    width: 97px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .titleWelcome {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 999px;
+    top: 17px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #333333;
+}
+
+.profile .titleEmail {
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    left: 908px;
+    top: 36px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #333333;
+}
+
+.profilePhoto {
+    position: absolute;
+    left: 94%;
+    right: 2.53%;
+    top: 27.94%;
+    bottom: 27.94%;
+}
+
+.profilePhoto .photoPerson {
+    border-radius: 100%;
+}
+
+.profilePhoto .areaIconNotify {
+    width: 12px;
+    height: 12px;
+
+    position: absolute;
+    left: 60%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F85959;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconNotify {
+    width: 6px;
+    height: 12px;
+}
