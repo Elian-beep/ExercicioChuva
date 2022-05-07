@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Quicksand:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+.navBar {
+
+    width: 220px;
+    min-height: 100vh;
+    height: 100%;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.navTop {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    width: 220px;
+    height: 68px;
+
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.TitleNavBar {
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+
+    font-size: 30px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.logoSlaca {
+    width: 220px;
+    height: 258px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 68px;
+    bottom: 0%;
+}
+
+.navLinks {
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 326px;
+    bottom: 0;
+    background: #FFFFFF;
+}
+
+.navLinks a {
+    height: 33px;
+    width: 220px;
+    border-bottom: 2px solid #E7E7E7;
+
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Quicksand';
+}
+
+.navLinks p{
+    font-size: 15px;
+    color: #725C5C;
+
+    position: relative;
+    left: 10.91%;
+    right: 64.09%;
+    bottom: 25%;
+
+}
+
+.selected{
+    background: #FDF1EB;
+}
+
+.selected:before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 33px;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
