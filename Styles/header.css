@@ -1,108 +1,183 @@
 .contentHeader {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-
-    background: #FDF1EB;
-    max-width: calc(100vw - 220px);
     width: 100%;
-    height: 68px;
+    min-height: 68px;
+    height: auto;
+    background: #FDF1EB;
+
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.areaTitles {
+    width: 643px;
+
+    position: relative;
+    left: 36px;
+}
+
+.titleTop {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+
+    color: #725C5C;
+}
+
+.titleMid {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+
+    margin: 0;
+    color: #725C5C;
+}
+
+.titleBot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+
+    color: #725C5C;
+}
+
+.areaRight {
+    display: flex;
+    position: relative;
+    right: 2.53%;
+}
+
+.btnTranslate {
+    background: none;
+    outline: none;
+    width: 97px;
+    height: 34px;
+    cursor: pointer;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
 
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    position: relative;
+    right: 30%;
 }
 
-.subtitleTop {
-    position: absolute;
-    width: 391px;
-    height: 16px;
-    left: 36px;
-    top: 5px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-
-    color: #725C5C;
-
-
+.iconLanguage {
+    width: 22px;
+    height: 21px;
 }
 
-.subtitleMid {
-    position: absolute;
-    width: 643px;
-    height: 26px;
-    left: 36px;
-    top: 23px;
-    max-width: calc(100vw - 220px);
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 26px;
-    /* identical to box height */
-
-
-    color: #725C5C;
+.iconDrop {
+    width: 6px;
+    height: 4px;
 }
 
-.subtitleBottom {
-    position: absolute;
-    width: 105px;
-    height: 16px;
-    left: 36px;
-    top: 48px;
+.profileTitles {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
 
-    font-family: 'Roboto';
+    position: relative;
+    right: 7%;
+}
+
+.titleWelcome {
+    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 14px;
+    color: #333333;
+}
 
-    color: #725C5C;
+.titleEmail {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+}
 
+.photo {
+    width: 48px;
+    height: 30px;
+    margin-bottom: .5em;
+
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.photo img {
+    border-radius: 100%;
+}
+
+.photo .iconNotify {
+    background: #F85959;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 20%;
+    top: 0%;
 }
 
 @media (max-width: 600px) {
     .contentHeader {
-        height: 170px;
-        max-width: calc(100vw - 100px);
-        background: #FDF1EB;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    .subtitleTop {
-        position: absolute;
-        left: 10px;
-        top: 15px;
-
-        font-size: 10px;
-        width: 180px;
-        height: 10px;
-        line-height: 12px;
+    .areaTitles {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .subtitleMid {
-        position: absolute;
-        left: 10px;
-        top: 60px;
-
-        width: 180px;
-        font-size: 14px;
-        line-height: 15px;
+    .areaRight {
+        margin-top: .8em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
-    .subtitleBottom {
-        position: absolute;
-        left: 10px;
-        top: 130px;
+    .btnTranslate {
+        position: relative;
+        left: 0;
+    }
 
-        font-size: 10px;
-        width: 200px;
-        height: 10px;
-        line-height: 12px;
+    .profileTitles {
+        margin: .8em 0;
+        display: flex;
+        text-align: center;
+
+        position: relative;
+        left: 0;
+    }
+
+    .titleMid {
+        font-size: .9rem;
+        font-weight: 700;
+        margin: .5em 0;
     }
 }
