@@ -1,0 +1,141 @@
+.subHeader {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2em;
+}
+
+.titleMain {
+    position: relative;
+    left: 36px;
+    width: 786px;
+}
+
+.titleMain span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+.subHeaderRight {
+    position: relative;
+    right: 45px;
+}
+
+.btnsSubHeaderRight {
+    width: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnDownload,
+.btnStar,
+.btnDoi {
+    border: none;
+    outline: none;
+    background: #ED7839;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnDownload {
+    width: 120px;
+    height: 31px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.btnStar {
+    width: 43px;
+    height: 31px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnDoi {
+    width: 43px;
+    height: 31px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.subTitle {
+    height: 25px;
+    width: 239px;
+}
+
+.subTitle span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+
+@media (max-width: 600px) {
+    .subHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titleMain {
+        margin-top: -1em;
+        position: relative;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .titleMain span {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .subHeaderRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 1em;
+
+        position: relative;
+        right: 0;
+    }
+
+    .subTitle{
+        text-align: center;
+    }
+}
