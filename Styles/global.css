@@ -40,3 +40,13 @@ body{
     right: 0%;
     top: 0%;
 }
+
+@media (max-width: 600px) {
+    .navBar{
+        width: 100px;
+    }
+
+    .content{
+        left: 100px;
+    }
+}

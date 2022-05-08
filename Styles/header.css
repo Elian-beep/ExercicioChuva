@@ -4,7 +4,8 @@
     right: 0%;
 
     background: #FDF1EB;
-    width: 100%;
+    max-width: calc(100vw - 220px);
+    width: 1146px;
     height: 68px;
     padding: 0;
 
@@ -65,101 +66,27 @@
 
 }
 
-.areaTranslate {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 97px;
-    height: 34px;
-    left: 789px;
-    top: 17px;
-
-    border: 1px solid #CCCCCC;
-    border-radius: 3px;
+@media (max-width: 600px) {
+    .subtitleTop{ font-size: 4px; }
+    .subtitleMid{ font-size: 12px; }
+    .subtitleBottom{ font-size: 4px; }
 }
 
-.areaTranslate button {
-    border: none;
-    background: none;
-    cursor: pointer;
-
-    width: 97px;
-    height: 34px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 768px) {
+    .subtitleTop{ font-size: 6px; }
+    .subtitleMid{ font-size: 14px; }
+    .subtitleBottom{ font-size: 6px; }
 }
 
-.profile .titleWelcome {
-    position: absolute;
-    width: 72px;
-    height: 18px;
-    left: 999px;
-    top: 17px;
-
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-
-    text-align: right;
-
-    color: #333333;
+@media (max-width: 992px) {
+    .subtitleTop{ font-size: 8px; }
+    .subtitleMid{ font-size: 16px; }
+    .subtitleBottom{ font-size: 8px; }
+    
 }
 
-.profile .titleEmail {
-    position: absolute;
-    width: 163px;
-    height: 15px;
-    left: 908px;
-    top: 36px;
-
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: right;
-
-    color: #333333;
-}
-
-.profilePhoto {
-    position: absolute;
-    left: 94%;
-    right: 2.53%;
-    top: 27.94%;
-    bottom: 27.94%;
-}
-
-.profilePhoto .photoPerson {
-    border-radius: 100%;
-}
-
-.profilePhoto .areaIconNotify {
-    width: 12px;
-    height: 12px;
-
-    position: absolute;
-    left: 60%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: #F85959;
-    border-radius: 10px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iconNotify {
-    width: 6px;
-    height: 12px;
+@media (max-width: 1200px) {
+    .subtitleTop{ font-size: 10px; }
+    .subtitleMid{ font-size: 18px; }
+    .subtitleBottom{ font-size: 10px; }
 }

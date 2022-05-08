@@ -72,7 +72,7 @@
     font-family: 'Quicksand';
 }
 
-.navLinks p{
+.navLinks p {
     font-size: 15px;
     width: 220px;
     color: #725C5C;
@@ -84,14 +84,34 @@
 
 }
 
-.selected{
+.selected {
     background: #FDF1EB;
 }
 
-.selected:before{
+.selected:before {
     content: "";
     position: absolute;
     width: 5px;
     height: 33px;
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
+@media (max-width: 600px) {
+    .navTop { width: 100px; height: 50px; }
+
+    .TitleNavBar { font-size: 15px; line-height: 20px; font-weight: 700; }
+
+    .logoSlaca img{ width: 100px; height: 120px; position: absolute; top: 0%; }
+
+    .navLinks{ position: absolute; top: 200px; }
+
+    .navLinks a{ height: 20px; width: 100px; }
+
+    .navLinks p{ font-size: 10px; position: relative; bottom: 20%; }
+
+    .selected:before{
+        width: 3px;
+        height: 20px;
+    }
+
 }
