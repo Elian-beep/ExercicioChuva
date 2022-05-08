@@ -5,7 +5,7 @@
 
     background: #FDF1EB;
     max-width: calc(100vw - 220px);
-    width: 1146px;
+    width: 100%;
     height: 68px;
     padding: 0;
 
@@ -37,6 +37,7 @@
     height: 26px;
     left: 36px;
     top: 23px;
+    max-width: calc(100vw - 220px);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -67,26 +68,41 @@
 }
 
 @media (max-width: 600px) {
-    .subtitleTop{ font-size: 4px; }
-    .subtitleMid{ font-size: 12px; }
-    .subtitleBottom{ font-size: 4px; }
-}
+    .contentHeader {
+        height: 170px;
+        max-width: calc(100vw - 100px);
+        background: #FDF1EB;
+    }
 
-@media (max-width: 768px) {
-    .subtitleTop{ font-size: 6px; }
-    .subtitleMid{ font-size: 14px; }
-    .subtitleBottom{ font-size: 6px; }
-}
+    .subtitleTop {
+        position: absolute;
+        left: 10px;
+        top: 15px;
 
-@media (max-width: 992px) {
-    .subtitleTop{ font-size: 8px; }
-    .subtitleMid{ font-size: 16px; }
-    .subtitleBottom{ font-size: 8px; }
-    
-}
+        font-size: 10px;
+        width: 180px;
+        height: 10px;
+        line-height: 12px;
+    }
 
-@media (max-width: 1200px) {
-    .subtitleTop{ font-size: 10px; }
-    .subtitleMid{ font-size: 18px; }
-    .subtitleBottom{ font-size: 10px; }
+    .subtitleMid {
+        position: absolute;
+        left: 10px;
+        top: 60px;
+
+        width: 180px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .subtitleBottom {
+        position: absolute;
+        left: 10px;
+        top: 130px;
+
+        font-size: 10px;
+        width: 200px;
+        height: 10px;
+        line-height: 12px;
+    }
 }
