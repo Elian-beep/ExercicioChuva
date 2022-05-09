@@ -1,0 +1,90 @@
+.detailsHeader {
+    background: #FDF1EB;
+
+    width: 242px;
+    height: 45px;
+
+    position: relative;
+
+    border-bottom: 1px solid #ECECEC;
+}
+
+.detailsHeader span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4E4E4E;
+
+    width: 212px;
+    height: 25px;
+
+    position: absolute;
+    right: 15px;
+    left: 15px;
+    top: 11px;
+    bottom: 9px;
+}
+
+.detailsBody {
+    border-radius: 3px;
+    width: 212px;
+    height: 394px;
+
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+}
+
+.detailsScroll {
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.detailsScroll::-webkit-scrollbar {
+    background: #E7E7E7;
+    border-radius: 5px;
+    width: 3px;
+    position: absolute;
+    right: 6px;
+}
+
+.detailsScroll::-webkit-scrollbar-thumb {
+    background: #BFBFBF;
+    border-radius: 5px;
+    width: 3px;
+    position: absolute;
+    right: 6px;
+}
+
+.detailsBody .detailsTextOne {
+    margin: 0;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+
+    letter-spacing: 0.02em;
+
+    color: #000;
+
+    margin-bottom: 2em;
+}
+
+.detailsBody .detailsTextTwo {
+    margin: 0;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
+}
