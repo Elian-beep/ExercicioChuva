@@ -136,6 +136,7 @@
 
 @media (max-width: 600px) {
     .contentHeader {
+        padding: .3em 0;
         height: auto;
         display: flex;
         flex-direction: column;
