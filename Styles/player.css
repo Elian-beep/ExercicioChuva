@@ -11,8 +11,98 @@
 .videoPlayer video {
     width: 783px;
     height: 439px;
-    background: rgba(48, 33, 25, 0.5);
     border-radius: 3px;
+}
+
+.overlayBackground {
+    width: 783px;
+    height: 439px;
+    border-radius: 3px;
+    background: rgba(141, 53, 6, 0.5);
+    opacity: 70%;
+    visibility: 70%;
+
+    position: absolute;
+    top: 0%;
+}
+
+.overlayBackground:hover {
+    display: none;
+    visibility: hidden;
+}
+
+.overlayTitle {
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 25px;
+    width: 734px;
+    height: 54px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    right: 17px;
+
+    opacity: 100%;
+}
+
+.areaBottomVideo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+    bottom: 70px;
+    left: 31px;
+
+    width: 553px;
+    height: 86px;
+}
+
+.areaImage {
+    border: 1px solid #ED7839;
+    border-radius: 100%;
+
+    width: 84px;
+    height: 86px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.areaImage img {
+    border-radius: 100%;
+}
+
+.areaTitlesBotVideo h3 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 25px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.areaTitlesBotVideo span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 
 @media (max-width: 600px) {
@@ -30,9 +120,26 @@
     }
 
     .videoPlayer video {
-        width: 250px;
+        width: 280px;
         height: 180px;
-        background: rgba(48, 33, 25, 0.5);
         border-radius: 3px;
+    }
+
+    .overlayBackground {
+        width: 280px;
+        height: 180px;
+    }
+
+    .overlayTitle {
+        font-size: 11px;
+        width: 250px;
+    
+        position: absolute;
+        top: 10px;
+        left: 5px;
+    }
+
+    .areaBottomVideo {
+        display: none;
     }
 }
