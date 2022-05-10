@@ -1,6 +1,8 @@
-.areaResume {
+
+/* RESUMO ESCONDIDO */
+.areaResumeClosed {
     /* width: 1058px */
-    width: 1037px;
+    width: calc(100vw - 320px);
     height: 189px;
     border: 1px solid #ECECEC;
     border-radius: 3px;
@@ -9,12 +11,29 @@
     position: relative;
     left: 43px;
     right: 45px;
+
+    transition: .4s ease-in;
+}
+
+/* RESUMO ABERTO */
+.areaResumeOpen{
+    height: 560px;
+    width: calc(100vw - 320px);
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    margin-top: 2em;
+
+    position: relative;
+    left: 43px;
+    right: 45px;
+
+    transition: .4s ease-in;
 }
 
 .resumeHeader {
     background: #FDF1EB;
     border: 1px solid #ECECEC;
-    width: 1036px;
+    width: calc(100vw - 321px);
     height: 45px;
 
     position: relative;
@@ -41,6 +60,19 @@
     position: relative;
 }
 
+#areaResume button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    color: #ED7839;
+
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+
 .textBody {
     font-family: 'Quicksand';
     font-style: normal;
@@ -65,15 +97,6 @@
     right: 15px;
 }
 
-.textBody input {
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-
-    color: #ED7839;
-}
-
 @media (max-width: 600px) {
     .testeCentralizar {
         display: flex;
@@ -81,7 +104,8 @@
         align-items: center;
     }
 
-    .areaResume {
+    /* RESUMO ESCONDIDO */
+    .areaResumeClosed {
         width: 280px;
         height: 280px;
 
@@ -90,8 +114,18 @@
         right: 0%;
     }
 
+    /* RESUMO ABERTO */
+    .areaResumeOpen{
+        width: 280px;
+        height: 760px;
+
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+
     .resumeHeader {
-        width: 279px;
+        width: 280px;
     }
 
     .textBody {
