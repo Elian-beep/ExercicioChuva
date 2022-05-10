@@ -12,7 +12,7 @@
     left: 43px;
     right: 45px;
 
-    transition: .4s ease-in;
+    transition: .2s ease-in;
 }
 
 /* RESUMO ABERTO */
@@ -27,7 +27,7 @@
     left: 43px;
     right: 45px;
 
-    transition: .4s ease-in;
+    transition: .2s ease-in;
 }
 
 .resumeHeader {

@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .areaDiscussions {
-        width: calc(100vw - 110px);
+        width: 280px;
         position: relative;
         left: 0%;
         right: 0%;
