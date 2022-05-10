@@ -92,5 +92,10 @@
 @media (max-width: 600px) {
     .detailsScroll{
         height: 230px;
+        width: 250px;
+    }
+
+    .detailsHeader{
+        width: 280px;
     }
 }

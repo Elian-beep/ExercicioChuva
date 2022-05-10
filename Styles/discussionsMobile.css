@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    .areaDiscussions {
+        width: calc(100vw - 110px);
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+
+    .titlePNT {
+        font-size: 11px;
+        position: absolute;
+        top: 15px;
+    }
+
+    .iconsPNT {
+        margin-top: 4rem;
+        width: 220px;
+    }
+
+    .subtitlePNT {
+        margin-top: 3rem;
+        width: 95%;
+        height: 20px;
+
+        font-size: 11px;
+        line-height: 10px;
+        text-align: justify;
+    }
+
+    .barDivision{
+        width: 250px;
+        border: 1px solid #E7E7E7;
+        height: 0;
+    }
+}
