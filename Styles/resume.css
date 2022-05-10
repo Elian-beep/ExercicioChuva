@@ -1,0 +1,105 @@
+.areaResume {
+    /* width: 1058px */
+    width: 1037px;
+    height: 189px;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+    margin-top: 2em;
+
+    position: relative;
+    left: 43px;
+    right: 45px;
+}
+
+.resumeHeader {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    width: 1036px;
+    height: 45px;
+
+    position: relative;
+}
+
+.resumeHeader span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: #4E4E4E;
+
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    bottom: 10px;
+}
+
+.resumeBody {
+    position: relative;
+}
+
+.textBody {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #5C5C5C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    position: absolute;
+    left: 15px;
+    right: 15px;
+}
+
+.textBody input {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    color: #ED7839;
+}
+
+@media (max-width: 600px) {
+    .testeCentralizar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .areaResume {
+        width: 280px;
+        height: 280px;
+
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+
+    .resumeHeader {
+        width: 279px;
+    }
+
+    .textBody {
+        height: 10px;
+        font-size: 11px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+
+        color: #5C5C5C;
+    }
+}

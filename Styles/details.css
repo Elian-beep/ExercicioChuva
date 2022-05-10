@@ -88,3 +88,9 @@
 
     color: #5C5C5C;
 }
+
+@media (max-width: 600px) {
+    .detailsScroll{
+        height: 230px;
+    }
+}
