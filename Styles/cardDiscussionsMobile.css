@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .cardAssunto{
-        width: calc(100vw - 125px);
+        width: calc(100vw - 150px);
     }
 
     .titleCard{
