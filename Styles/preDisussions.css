@@ -35,9 +35,9 @@
 }
 
 .areaPreNewTopic {
-    display: none;
+    /* AREA DE MUDANÇA DE ESTADO DE NOVO TÓPICO */
+    display: flex; /*flex || none*/
 
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;

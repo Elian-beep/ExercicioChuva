@@ -2,6 +2,9 @@
     position: relative;
     right: 0%;
     left: 0%;
+
+    /* AREA DE MUDANÇA DE ESTADO DE NOVO TÓPICO */
+    display: none; /*block || none*/
 }
 
 .titleHNT {
