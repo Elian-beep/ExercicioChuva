@@ -1,5 +1,6 @@
 .areaPosNewTopic {
-    display: flex;
+    /* AREA DE MUDANÇA DE ESTADO DE NOVO TÓPICO */
+    display: none; /*flex || none*/
     justify-content: center;
     align-items: center;
     flex-direction: column;

@@ -1,0 +1,55 @@
+.capaCard {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(221, 221, 221, 0.6);
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+
+.elementsCapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    gap: 10px;
+}
+
+.elementsCapa img {
+    width: 30px;
+    height: 25px;
+}
+
+.aguardandoCapa {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+}
+
+.editarCapa {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #ED7839;
+}
+
+@media (max-width: 600px) {
+    .aguardandoCapa{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

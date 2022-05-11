@@ -1,3 +1,10 @@
+.areaCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .cardAssunto {
     display: flex;
     flex-direction: column;
@@ -12,6 +19,7 @@
     margin-top: 1rem;
 
     width: calc(100vw - 350px);
+    cursor: pointer;
 }
 
 .titleCard {
