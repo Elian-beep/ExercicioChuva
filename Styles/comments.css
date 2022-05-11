@@ -1,0 +1,81 @@
+.areaComments {
+    display: none; /*flex || none*/
+    flex-direction: column;
+}
+
+.commentsAutor {
+    width: 100%;
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 0px;
+}
+
+.commentsPerson{
+    background: none;
+    width: 100%;
+}
+
+.commentsHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.commentsHeaderRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentsName {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+}
+
+.fromComments {
+    margin-right: 2rem;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ED7839;
+}
+
+.commentsHeaderRight img {
+    width: 25px;
+    height: 25px;
+}
+
+.commentsText {
+    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+@media (max-width: 600px) {
+    .fromComments{
+        font-size: 13px;
+        margin-right: 1rem;
+    }
+
+    .commentsText{
+        margin-right: 1rem;
+        font-size: 14px;
+    }
+}

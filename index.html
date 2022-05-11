@@ -37,6 +37,9 @@
     <link rel="stylesheet" href="./Styles/cardDisussions.css">
     <link rel="stylesheet" href="./Styles/cardDiscussionsMobile.css">
 
+    <!-- Estilo dos comentários abaixo dos cards -->
+    <link rel="stylesheet" href="./Styles/comments.css">
+
     <title>SLACA 2019</title>
 </head>
 
@@ -431,12 +434,13 @@
                             </div>
                         </div>
 
-                        <div class="cardAssunto">
+                        <div class="cardAssunto" id="areaCards2">
                             <span class="titleCard">Assunto da pergunta aparece aqui</span>
                             <span class="autorCard">Carlos Henrique Santos</span>
                             <span class="assuntoCard">Comecinho da pergunta aparece aqui resente relato inscreve-se no
                                 campo da análise da dimensão e impacto de processo formativo situado impacto de processo
-                                formativo processo...</span>
+                                formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto
+                                de processo formativo situado impacto de processo formativo processo?</span>
                             <div class="footerCard">
                                 <button class="btnElipsis">
                                     <div class="elipsis"></div>
@@ -446,9 +450,97 @@
                                 <button class="btnHeart">
                                     <img src="./assets/apples.png" alt="icon_heart">
                                 </button>
-                                <span class="likecard">1 like</span>
-                                <span class="respCard">1 resposta</span>
+                                <span class="likecard">4 like</span>
+                                <span class="respCard">4 resposta</span>
                             </div>
+
+                            <!-- COMENTÁRIOS ESCONDIDOS/EXIBIDOS AO CLICAR -->
+                            <div class="areaComments" id="areaComments">
+
+                                <!-- Comentário de autor -->
+                                <div class="commentsAutor">
+                                    <div class="commentsHeader">
+                                        <span class="commentsName">Adriano da Silva</span>
+                                        <div class="commentsHeaderRight">
+                                            <span class="fromComments">Autor</span>
+                                            <img src="./assets/okOrange.png" alt="icon_ok">
+                                        </div>
+                                    </div>
+                                    <div class="commentsText">
+                                        <span>
+                                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão
+                                            e
+                                            impacto de processo formativo situado impacto de processo formativo processo
+                                            resente relato inscreve-se no campo da análise da dimensão e impacto de
+                                            processo
+                                            formativo situado impacto de processo formativo processo.
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Comentário de pessoa comum -->
+                                <div class="commentsPerson">
+                                    <div class="commentsHeader">
+                                        <span class="commentsName">Carlos Henrique Santos</span>
+
+                                    </div>
+                                    <div class="commentsText">
+                                        <span>
+                                            Consegui entender melhor agora! Parece que a variação da análise da dimensão
+                                            e impacto de processo formativo situado impacto de processo
+                                            formativo.<br><br><br>
+
+                                            Obrigada pela resposta, muito interessante o seu trabalho!
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Comentário de autor -->
+                                <div class="commentsAutor">
+                                    <div class="commentsHeader">
+                                        <span class="commentsName">Carmila Ferreira Andrade</span>
+                                        <div class="commentsHeaderRight">
+                                            <span class="fromComments">Coautor</span>
+                                            <img src="./assets/okOrange.png" alt="icon_ok">
+                                        </div>
+                                    </div>
+                                    <div class="commentsText">
+                                        <span>
+                                            Também ínteressante lembrar que o relato inscreve-se no campo da análise da
+                                            dimensão e impacto de processo formativo situado impacto de processo
+                                            formativo processo resente relato inscreve-se no campo da análise da
+                                            dimensão e impacto de processo formativo situado impacto de processo
+                                            formativo processo.<br><br><br>
+
+                                            Situado impacto de processo formativo processo resente relato inscreve-se no
+                                            campo da análise da dimensão e impacto de processo formativo situado impacto
+                                            de processo formativo processo.
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Comentário de autor -->
+                                <div class="commentsAutor">
+                                    <div class="commentsHeader">
+                                        <span class="commentsName">Ana Carolina</span>
+                                        <div class="commentsHeaderRight">
+                                            <span class="fromComments">Coautor</span>
+                                            <img src="./assets/okOrange.png" alt="icon_ok">
+                                        </div>
+                                    </div>
+                                    <div class="commentsText">
+                                        <span>
+                                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão
+                                            e impacto de processo formativo situado impacto de processo formativo
+                                            processo resente relato inscreve-se no campo da análise da dimensão e
+                                            impacto de processo formativo situado impacto de processo formativo
+                                            processo.
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
 
@@ -521,7 +613,6 @@
                             </p> -->
                         </div>
                     </div>
-                    <button id="seeMore">ver mais</button>
                 </div>
             </div>
 
