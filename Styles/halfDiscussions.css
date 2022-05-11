@@ -1,0 +1,116 @@
+.areaHalfNewTopic {
+    position: relative;
+    right: 0%;
+    left: 0%;
+}
+
+.titleHNT {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #5C5C5C;
+    margin-top: 1rem;
+}
+
+.formHNT {
+    margin-top: 1rem;
+    margin-left: 17px;
+    margin-right: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.areaAssuntoHNT {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.areaAssuntoHNT label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+.inputAssuntoHNT {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    outline: none;
+}
+
+.areaConteudoHNT {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.areaConteudoHNT label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+}
+
+.inputConteudoHNT {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 0 0;
+    height: 82px;
+}
+
+.areaBtnsHNT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 4px 4px;
+    height: 31px;
+}
+
+.btnsFormatadores {
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.areaBtnsHNT button {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    border: none;
+    width: 205px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    cursor: pointer;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.barDivisionHalf {
+    border: 1px solid #E7E7E7;
+    background: #E7E7E7;
+    height: 0;
+
+    position: absolute;
+    right: 15px;
+    left: 16px;
+}

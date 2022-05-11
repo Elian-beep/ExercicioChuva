@@ -24,8 +24,11 @@
     <link rel="stylesheet" href="./Styles/resume.css">
 
     <!-- Estilo da caixa principal de discussão -->
-    <link rel="stylesheet" href="./Styles/disussions.css">
-    <link rel="stylesheet" href="./Styles/discussionsMobile.css">
+    <link rel="stylesheet" href="./Styles/preDisussions.css">
+    <link rel="stylesheet" href="./Styles/preDiscussionsMobile.css">
+
+    <link rel="stylesheet" href="./Styles/halfDiscussions.css">
+    <link rel="stylesheet" href="./Styles/halfDiscussionsMobile.css">
 
     <title>SLACA 2019</title>
 </head>
@@ -293,6 +296,7 @@
                         <span>Discussões</span>
                     </div>
 
+                    <!-- Primeiro momento do container de novos tópicos -->
                     <div class="areaPreNewTopic">
                         <div class="titlePNT">
                             <span>Compartilhe suas ideias ou dúvidas com os autores!</span>
@@ -305,18 +309,48 @@
                         </div>
 
                         <div class="subtitlePNT">
-                            <span>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade?
+                            <span>Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+                                curiosidade?
                                 Deixe
                                 seus questionamentos ou sugestões para o autor!</span>
                         </div>
 
                         <div class="areaBtnPNT">
-                            <span class="barDivision"></span>
-                            <button class="btnPNT"><img src="./assets/criar.png" alt="icon_criar">criar tópico</button>
+                            <span class="barDivisionPre"></span>
+                            <button class="btnPNT"><img src="./assets/criar.png" alt="icon_criar">criar
+                                tópico</button>
+                        </div>
+                    </div>
+
+                    <!-- Segundo momento do container de novos tópicos -->
+                    <div class="areaHalfNewTopic">
+                        <div class="titleHNT">
+                            <span>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</span>
                         </div>
 
+                        <div class="formHNT">
+                            <div class="areaAssuntoHNT">
+                                <label for="">Assunto</label>
+                                <input class="inputAssuntoHNT" type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+                            </div>
 
+                            <div class="areaConteudoHNT">
+                                <label for="">Conteúdo</label>
+                                <input class="inputConteudoHNT" type="text">
+                            </div>
+
+                            <div class="areaBtnsHNT">
+                                <div class="btnsFormatadores">
+                                    <img src="./assets/bold.png" alt="icon_bold">
+                                    <img src="./assets/italico.png" alt="icon_italico">
+                                </div>
+
+                                <button>Enviar</button>
+                            </div>
+                        </div>
+                        <span class="barDivisionHalf"></span>
                     </div>
+
                 </div>
             </div>
 

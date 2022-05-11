@@ -35,7 +35,9 @@
 }
 
 .areaPreNewTopic {
-    display: flex;
+    display: none;
+
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -126,10 +128,11 @@
     margin-right: .5rem;
 }
 
-.barDivision{
+.barDivisionPre{
     height: 0;
     width: 1000px;
     border: 1px solid #E7E7E7;
+    background: #E7E7E7;
 
     position: absolute;
     bottom: 50%;

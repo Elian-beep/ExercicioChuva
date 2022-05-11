@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .titleHNT{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .areaAssuntoHNT label{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .areaConteudoHNT label{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .areaBtnsHNT button{
+        width: 100px;
+    }
+}
