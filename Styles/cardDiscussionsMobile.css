@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    .cardAssunto{
+        width: calc(100vw - 125px);
+    }
+
+    .titleCard{
+        margin-left: .5rem;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .autorCard{
+        margin-left: .5rem;
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .assuntoCard{
+        display: flex;
+        text-align: justify;
+        margin-left: .3rem;
+        margin-right: .3rem;
+        font-size: 12.5px;
+        line-height: 12px;
+    }
+}

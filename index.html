@@ -30,6 +30,12 @@
     <link rel="stylesheet" href="./Styles/halfDiscussions.css">
     <link rel="stylesheet" href="./Styles/halfDiscussionsMobile.css">
 
+    <link rel="stylesheet" href="./Styles/posDiscussions.css">
+
+    <!-- Estilo dos cards de discussões -->
+    <link rel="stylesheet" href="./Styles/cardDisussions.css">
+    <link rel="stylesheet" href="./Styles/cardDiscussionsMobile.css">
+
     <title>SLACA 2019</title>
 </head>
 
@@ -331,7 +337,8 @@
                         <div class="formHNT">
                             <div class="areaAssuntoHNT">
                                 <label for="">Assunto</label>
-                                <input class="inputAssuntoHNT" type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+                                <input class="inputAssuntoHNT" type="text"
+                                    placeholder="Defina um tópico sucinto para notificar os autores...">
                             </div>
 
                             <div class="areaConteudoHNT">
@@ -349,6 +356,46 @@
                             </div>
                         </div>
                         <span class="barDivisionHalf"></span>
+                    </div>
+
+                    <!-- Terceiro momento do container de novos tópicos -->
+                    <div id="areaPsNT" class="areaPosNewTopic">
+                        <div class="titlePsNT">
+                            <span>Seu tópico foi enviado com sucesso! :D</span>
+                        </div>
+                        <div class="subtitlePsNT">
+                            <span>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que
+                                seu tópico for respondido!</span>
+                        </div>
+                        <div class="linkPsNT">
+                            <a href="#">Descubra outros trabalhos</a>
+                        </div>
+
+                        <div class="areaBtnPsNT">
+                            <button id="btnPsNT" class="btnPsNT">criar novo tópico</button>
+                            <span class="barDivisionPos"></span>
+                        </div>
+
+                        <!-- Card modelo que será ofuscado enquanto estiver em analise -->
+                        <div class="cardAssunto">
+                            <span class="titleCard">Assunto da pergunta aparece aqui</span>
+                            <span class="autorCard">Carlos Henrique Santos</span>
+                            <span class="assuntoCard">Comecinho da pergunta aparece aqui resente relato inscreve-se no
+                                campo da análise da dimensão e impacto de processo formativo situado impacto de processo
+                                formativo processo...</span>
+                            <div class="footerCard">
+                                <button class="btnElipsis">
+                                    <div class="elipsis"></div>
+                                    <div class="elipsis"></div>
+                                    <div class="elipsis"></div>
+                                </button>
+                                <button class="btnHeart">
+                                    <img src="./assets/apples.png" alt="icon_heart">
+                                </button>
+                                <span class="likecard">1 like</span>
+                                <span class="respCard">1 resposta</span>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

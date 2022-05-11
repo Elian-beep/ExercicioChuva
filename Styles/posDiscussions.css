@@ -1,0 +1,87 @@
+.areaPosNewTopic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlePsNT {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ED7839;
+    margin-top: 1rem;
+}
+
+.subtitlePsNT {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    margin-top: 1rem;
+}
+
+.linkPsNT {
+    margin-top: 1rem;
+}
+
+.linkPsNT a {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+}
+
+.areaBtnPsNT{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btnPsNT {
+
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 235px;
+    height: 32px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.barDivisionPos{
+    border: 1px solid #E7E7E7;
+    height: 0;
+    width: calc(100vw - 350px);
+
+    position: absolute;
+    top: 50%;
+}
+
+@media (max-width: 600px) {
+    .barDivisionPos{
+        width: calc(100vw - 125px);
+    }
+}
