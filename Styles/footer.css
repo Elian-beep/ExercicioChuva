@@ -107,6 +107,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: calc(100vw - 130px);
     }
 
     .footerText{
