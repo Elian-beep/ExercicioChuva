@@ -50,3 +50,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML5](https://www.w3schools.com/tags/tag_doctype.asp)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+	
+# Autor
+---
+	
+<img style="border-radius: 50%;" src="./assets/profile.jpg" width="100px;"  alt="" />
+<br />
+<sub><b>Elian Batista</b></sub> <a href="https://basic-portfolio-delta.vercel.app/" title="Portifolio">Portifólio</a>
+	
+Feito com ❤️ por Elian batista 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](linkedin.com/in/elian-batista-beep) 
+[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:elian.19batista@gmail.com)
