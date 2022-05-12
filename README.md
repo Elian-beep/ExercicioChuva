@@ -2,6 +2,10 @@
 
 # Exercicio Front End - Chuva
 
+<h1 align="center">
+  <img alt="LogoGaloa" title="#LogoGaloa" src="./assets/galoá.png" />
+</h1>
+
 ## Descrição do Projeto
 <p align="center">🚀 Exercício Front End da 2° Etapa para a vaga de estágio na Chuva/Galoá</p>
 
