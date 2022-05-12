@@ -8,22 +8,22 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Barra de Navgeação]
-      * [Apresentação]
-      * [Comitês]
-      * [Autores]
-      * [Eixos Temáticos]
-      * [Trabalhos]
-      * [Contato]
-   * [Cabeçalho]
-   * [Sub Cabeçalho]
-   * [Area Player]
-      * [Video]
-      * [Detalhes]
-   * [Resumo]
-   * [Discussões]
-      * [Novo Tópico]
-      * [Tópicos]
-      * [Comentários]
-   * [Rodapé]
+   * Barra de Navgeação
+      * Apresentação
+      * Comitês
+      * Autores
+      * Eixos Temáticos
+      * Trabalhos
+      * Contato
+   * Cabeçalho
+   * Sub Cabeçalho
+   * Area Player
+      * Video
+      * Detalhes
+   * Resumo
+   * Discussões
+      * Novo Tópico
+      * Tópicos
+      * Comentários
+   * Rodapé
 <!--te-->
