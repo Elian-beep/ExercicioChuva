@@ -27,6 +27,7 @@
 
     margin-right: 1rem;
     margin-top: -20px;
+    width: 100%;
 }
 
 .footerTitle{
@@ -110,5 +111,10 @@
 
     .footerText{
         margin-top: .5rem;
+    }
+
+    .btnSaibaMais{
+        width: 70%;
+        height: 25px;
     }
 }
