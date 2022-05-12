@@ -63,4 +63,4 @@ Feito com ❤️ por Elian batista 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Elian-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/elian-batista-beep)](https://linkedin.com/in/elian-batista-beep) 
 [![Gmail Badge](https://img.shields.io/badge/-elian.19batista@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:elian.19batista@gmail.com)
-[![Instagram Badge](https://img.shields.io/badge/-@e_lianb-405DE6?style=flate-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/e_lianb/)](https://www.instagram.com/e_lianb/)
+[![Instagram Badge](https://img.shields.io/badge/-@e_lianb-E1306C?style=flate-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/e_lianb/)](https://www.instagram.com/e_lianb/)
