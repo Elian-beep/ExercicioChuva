@@ -10,12 +10,13 @@
     margin-top: 2rem;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 1rem;
 }
 
 .footerConteudo {
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 2rem;
 }
 
 .logo{
