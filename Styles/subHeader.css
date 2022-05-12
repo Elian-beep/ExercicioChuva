@@ -108,6 +108,12 @@
     color: #ED7839;
 }
 
+@media only screen and (max-width: 1280px){
+    .titleMain{
+        width: 700px;
+    }
+}
+
 @media (max-width: 600px) {
     .subHeader {
         display: flex;

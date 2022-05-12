@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1280px) {
+    .videoPlayer video{
+        width: 700px;
+    }
+
+    .overlayBackground{
+        width: 700px;
+    }
+
+    .overlayTitle{
+        font-size: 20px;
+        width: 600px;
+    }
+}

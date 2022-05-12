@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1280px) {
+    .titleMid{
+        font-size: 1.2rem;
+    }
+
+    .btnTranslate{
+        position: relative;
+        right: 20%;
+    }
+}
