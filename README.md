@@ -62,4 +62,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Feito com ❤️ por Elian batista 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Elian-blue?style=flat-square&logo=Linkedin&logoColor=white&link=linkedin.com/in/elian-batista-beep)](linkedin.com/in/elian-batista-beep) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:elian.19batista@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-elian.19batista@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:elian.19batista@gmail.com)
