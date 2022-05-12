@@ -44,3 +44,9 @@
 ## Demonstração da Aplicação
 <a href="https://slac-chuva.vercel.app/">SLACA 2019<a>
 
+### 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML5](https://www.w3schools.com/tags/tag_doctype.asp)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
