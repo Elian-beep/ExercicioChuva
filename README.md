@@ -7,9 +7,14 @@
 </h1>
 
 ## Descrição do Projeto
-<p align="center">🚀 Exercício Front End da 2° Etapa para a vaga de estágio na Chuva/Galoá</p>
+<p align="center">🚀 Exercício Front End da 2° Etapa para a vaga de estágio na Chuva/Galoá com responsividade para:</p>
+<p align="center">
+	<span>Monitor</span>
+	<span>Laptop</span>
+	<span>Mobile</span>
+</p>
 
-Tabela de conteúdos
+## Tabela de conteúdos
 =================
 <!--ts-->
    * Barra de Navgeação
@@ -35,3 +40,7 @@ Tabela de conteúdos
 <h4 align="center"> 
 	🚧  SLACA 2019 🚀 Em construção...  🚧
 </h4>
+
+## Demonstração da Aplicação
+<a href="https://slac-chuva.vercel.app/">SLACA 2019<a>
+
