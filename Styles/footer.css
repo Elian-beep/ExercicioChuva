@@ -84,6 +84,10 @@
     font-weight: 1000;
 }
 
+.textStrong{
+    font-weight: 900;
+}
+
 .footerText p{
     margin: 0;
     font-family: 'Quicksand';

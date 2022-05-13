@@ -66,6 +66,10 @@
     justify-content: space-around;
 }
 
+.btnDownload:hover{
+    background: #eb8b56;
+}
+
 .btnStar {
     width: 43px;
     height: 31px;
@@ -76,6 +80,10 @@
     justify-content: center;
 }
 
+.btnStar:hover{
+    background: #eb8b56;
+}
+
 .btnDoi {
     width: 43px;
     height: 31px;
@@ -84,6 +92,9 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+.btnDoi:hover{
+    background: #eb8b56;
 }
 
 .subTitle {

@@ -124,6 +124,10 @@
     z-index: 1;
 }
 
+.btnPNT:hover{
+    background: #eb8b56;
+}
+
 .btnPNT img {
     margin-right: .5rem;
 }

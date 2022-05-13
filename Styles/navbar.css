@@ -72,6 +72,10 @@
     font-family: 'Quicksand';
 }
 
+.navLinks a:hover{
+    background: #fff7f3;
+}
+
 .navLinks p {
     font-size: 15px;
     width: 220px;

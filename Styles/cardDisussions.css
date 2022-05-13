@@ -1,4 +1,4 @@
-.areaCards{
+.areaCards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,6 @@
     margin-top: 1rem;
 
     width: calc(100vw - 350px);
-    cursor: pointer;
 }
 
 .titleCard {
@@ -112,12 +111,15 @@
     margin-left: 1rem;
 }
 
-.respCard{
+.respCard {
     font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 350;
-font-size: 14px;
-line-height: 19px;
-color: #757575;
-margin-left: 1rem;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+    margin-left: 1rem;
+
+    cursor: pointer;
+    border-bottom: .5px solid #757575;
 }

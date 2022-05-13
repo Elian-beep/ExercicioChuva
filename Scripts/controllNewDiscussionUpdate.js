@@ -1,10 +1,4 @@
 function showNewStep(idHidden, idShow, displayHidden, displayShow) {
-    /* idHidden: id da div que será escondido
-        idShow: id da div que será exibido
-        
-        displayHidden: forma que a div irá se esconder
-        displayShow: forma que a div irá aparecer*/
-
     document.getElementById(idHidden).style.display = displayHidden;
     document.getElementById(idShow).style.display = displayShow;
 }

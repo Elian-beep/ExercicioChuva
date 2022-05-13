@@ -72,6 +72,10 @@
     z-index: 1;
 }
 
+.btnPsNT:hover{
+    background: #eb8b56;
+}
+
 .barDivisionPos{
     border: 1px solid #E7E7E7;
     height: 0;

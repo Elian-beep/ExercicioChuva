@@ -108,6 +108,10 @@
     color: #FFFFFF;
 }
 
+.areaBtnsHNT button:hover{
+    background: #eb8b56;
+}
+
 .barDivisionHalf {
     border: 1px solid #E7E7E7;
     background: #E7E7E7;

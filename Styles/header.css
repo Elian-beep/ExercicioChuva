@@ -69,6 +69,10 @@
     right: 30%;
 }
 
+.btnTranslate:hover{
+    background: #fce5d9;
+}
+
 .iconLanguage {
     width: 22px;
     height: 21px;
