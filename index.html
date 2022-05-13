@@ -330,8 +330,8 @@
 
                         <div class="areaBtnPNT">
                             <span class="barDivisionPre"></span>
-                            <button id="btnPNT" class="btnPNT"><img src="./assets/criar.png" alt="icon_criar">criar
-                                tópico</button>
+                            <button onclick="showNewStep('areaPNT', 'areaHNT', 'none', 'block')" class="btnPNT"><img src="./assets/criar.png" alt="icon_criar">criar
+                                tópico</button> <!-- id: btnPNT -->
                         </div>
                     </div>
 
@@ -359,7 +359,7 @@
                                     <img src="./assets/italico.png" alt="icon_italico">
                                 </div>
 
-                                <button id="btnHNT">Enviar</button>
+                                <button onclick="showNewStep('areaHNT', 'areaPsNT', 'none', 'flex')" id="btnHNT">Enviar</button> <!-- id: btnHNT -->
                             </div>
                         </div>
                         <span class="barDivisionHalf"></span>
@@ -379,7 +379,7 @@
                         </div>
 
                         <div class="areaBtnPsNT">
-                            <button id="btnPsNT" class="btnPsNT">criar novo tópico</button>
+                            <button onclick="showNewStep('areaPsNT', 'areaHNT', 'none', 'block')" class="btnPsNT">criar novo tópico</button> <!-- id: btnPsNT -->
                             <span class="barDivisionPos"></span>
                         </div>
 
@@ -417,7 +417,7 @@
 
                     <!-- Area dos cards com tópicos em discussões -->
                     <div class="areaCards">
-                        <div class="cardAssunto">
+                        <div class="cardAssunto" id="areaCards1">
                             <span class="titleCard">Assunto da pergunta aparece aqui</span>
                             <span class="autorCard">Carlos Henrique Santos</span>
                             <span class="assuntoCard">Comecinho da pergunta aparece aqui resente relato inscreve-se no
@@ -435,9 +435,35 @@
                                 <span class="likecard">1 like</span>
                                 <span class="respCard">1 resposta</span>
                             </div>
+
+                            <!-- COMENTÁRIOS ESCONDIDOS/EXIBIDOS AO CLICAR -->
+                            <div class="areaComments" id="areaComments1">
+
+                                <!-- Comentário de autor -->
+                                <div class="commentsAutor">
+                                    <div class="commentsHeader">
+                                        <span class="commentsName">Adriano da Silva</span>
+                                        <div class="commentsHeaderRight">
+                                            <span class="fromComments">Autor</span>
+                                            <img src="./assets/okOrange.png" alt="icon_ok">
+                                        </div>
+                                    </div>
+                                    <div class="commentsText">
+                                        <span>
+                                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão
+                                            e
+                                            impacto de processo formativo situado impacto de processo formativo processo
+                                            resente relato inscreve-se no campo da análise da dimensão e impacto de
+                                            processo
+                                            formativo situado impacto de processo formativo processo.
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
-                        <div class="cardAssunto" id="areaCards2">
+                        <div class="cardAssunto" id="areaCards2"> <!-- id: areaCards2 ---->
                             <span class="titleCard">Assunto da pergunta aparece aqui</span>
                             <span class="autorCard">Carlos Henrique Santos</span>
                             <span class="assuntoCard">Comecinho da pergunta aparece aqui resente relato inscreve-se no
@@ -583,8 +609,8 @@
 
     </div><!-- FIM: Conteudo da página -->
 
-    <script src="./Scripts/resume.js"></script>
-    <script src="./Scripts/controlNewDiscussion.js"></script>
+    <script type="text/javascript" src="./Scripts/resume.js"></script>
+    <script type="text/javascript" src="./Scripts/controllNewDiscussionUpdate.js"></script>
 
 </body>
 
