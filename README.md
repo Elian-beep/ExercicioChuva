@@ -55,7 +55,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://basic-portfolio-delta.vercel.app/">
-<img style="border-radius: 50%;" src="./assets/profile.jpg" width="100px;"  alt="" />
+<img style="border-radius: 50px;" src="./assets/profile.jpg" width="100px;"  alt="" />
 <br />
 <sub><b style="font-size: 18pt; color: #FFF;">Elian Batista</b></sub></a> <a href="https://basic-portfolio-delta.vercel.app/" title="Portifolio">🎩</a>
 	
