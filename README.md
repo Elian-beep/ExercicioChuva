@@ -37,6 +37,8 @@
    * Rodapé
 <!--te-->
 
+![](https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa_Exercicio_-_Chuva.png#vitrinedev)
+
 <h4 align="center"> 
 	✅  SLACA 2019 Concluído  ✅
 </h4>
